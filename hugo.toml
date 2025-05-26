@@ -6,3 +6,7 @@ title = 'Lessons'
 # Use singular rather than plural for default taxonomies
 tag = "tag"
 category = "category"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
