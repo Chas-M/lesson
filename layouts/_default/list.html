@@ -1,0 +1,13 @@
+{{ define "list" }}
+    <div class="lesson my-5 container">
+        <div class="input-group mb-3">
+            <input id="search-filter" onkeyup="filterGridItems()" type="text" class="form-control"
+                placeholder="Search Lesson" aria-label="Search" />
+        </div>
+        <ul class="lesson-grid">
+            {{ range .Paginator.Pages }}
+                {{ partial "item" . }}
+            {{ end }}
+        </ul>
+    </div>
+{{ end }}

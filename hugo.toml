@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Lessons'
+
+[taxonomies]
+# Use singular rather than plural for default taxonomies
+tag = "tag"
+category = "category"
