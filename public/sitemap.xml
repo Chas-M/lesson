@@ -2,36 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/category/</loc>
+    <loc>cymk8.github.io/category/</loc>
   </url><url>
-    <loc>http://localhost:1313/category/drawing/</loc>
+    <loc>cymk8.github.io/category/drawing/</loc>
   </url><url>
-    <loc>http://localhost:1313/drawing/</loc>
+    <loc>cymk8.github.io/drawing/</loc>
   </url><url>
-    <loc>http://localhost:1313/painting/lesson-1/</loc>
+    <loc>cymk8.github.io/painting/lesson-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/painting/lesson-2/</loc>
+    <loc>cymk8.github.io/drawing/lesson-10/</loc>
   </url><url>
-    <loc>http://localhost:1313/sculpture/sculpture-1/</loc>
+    <loc>cymk8.github.io/painting/lesson-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/drawing/lesson-4/</loc>
+    <loc>cymk8.github.io/sculpture/lesson-3/</loc>
   </url><url>
-    <loc>http://localhost:1313/drawing/lesson-5/</loc>
+    <loc>cymk8.github.io/drawing/lesson-4/</loc>
   </url><url>
-    <loc>http://localhost:1313/drawing/lesson-6/</loc>
+    <loc>cymk8.github.io/drawing/lesson-5/</loc>
   </url><url>
-    <loc>http://localhost:1313/all/</loc>
+    <loc>cymk8.github.io/drawing/lesson-6/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>cymk8.github.io/painting/lesson-7/</loc>
   </url><url>
-    <loc>http://localhost:1313/category/painting/</loc>
+    <loc>cymk8.github.io/sculpture/lesson-8/</loc>
   </url><url>
-    <loc>http://localhost:1313/painting/</loc>
+    <loc>cymk8.github.io/sculpture/lesson-9/</loc>
   </url><url>
-    <loc>http://localhost:1313/category/sculpture/</loc>
+    <loc>cymk8.github.io/all/</loc>
   </url><url>
-    <loc>http://localhost:1313/sculpture/</loc>
+    <loc>cymk8.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/tag/</loc>
+    <loc>cymk8.github.io/category/painting/</loc>
+  </url><url>
+    <loc>cymk8.github.io/painting/</loc>
+  </url><url>
+    <loc>cymk8.github.io/category/sculpture/</loc>
+  </url><url>
+    <loc>cymk8.github.io/sculpture/</loc>
+  </url><url>
+    <loc>cymk8.github.io/tag/</loc>
   </url>
 </urlset>
