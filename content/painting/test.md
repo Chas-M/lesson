@@ -1,8 +1,8 @@
 +++
 draft = false
-title = 'Lesson 7 - Pain'
+title = 'Lesson 8 - Painfiile'
 link = "#"
 image = "/images/icon.png"
 category = ["Painting"]
-tags = ["water-colour"]
+tags = ["oil", "acrylic"]
 +++

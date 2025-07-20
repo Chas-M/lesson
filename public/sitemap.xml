@@ -18,6 +18,8 @@
   </url><url>
     <loc>http://localhost:1313/drawing/lesson-4/</loc>
   </url><url>
+    <loc>http://localhost:1313/music/lesson-4/</loc>
+  </url><url>
     <loc>http://localhost:1313/drawing/lesson-5/</loc>
   </url><url>
     <loc>http://localhost:1313/drawing/lesson-6/</loc>
@@ -30,9 +32,15 @@
   </url><url>
     <loc>http://localhost:1313/sculpture/lesson-9/</loc>
   </url><url>
+    <loc>http://localhost:1313/painting/test-copy/</loc>
+  </url><url>
     <loc>http://localhost:1313/all/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/category/music/</loc>
+  </url><url>
+    <loc>http://localhost:1313/music/</loc>
   </url><url>
     <loc>http://localhost:1313/category/painting/</loc>
   </url><url>

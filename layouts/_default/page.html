@@ -1,8 +1,13 @@
+<!-- This is for /all page edits-->
+
 {{ partial "header" . }}
 
 <div class="my-5 container">
     <h1>All Lessons</h1>
 
+    <a href="/">Back</a>
+    
+    <!-- This block contains the filter and list of items -->
     <div class="lesson my-5 container">
         <div class="input-group mb-3">
             <input id="search-filter" onkeyup="filterGridItems()" type="text" class="form-control"

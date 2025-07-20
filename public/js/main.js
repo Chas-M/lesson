@@ -11,7 +11,7 @@ function filterGridItems() {
 
         // if (lesson_item.getAttribute("data-title").toUpperCase().includes(filter)) {
         // Use regex instead
-        if (regexp.test(lesson_item.getAttribute("data-title"))) {
+        if (regexp.test(lesson_item.getAttribute("data-tags"))) {
             lesson_list_item[i].classList.remove('hide');
         } else {
             lesson_list_item[i].classList.add('hide');
