@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category on Lessons</title>
-    <link>https://cymk8.github.io/category/</link>
+    <link>http://localhost:1313/category/</link>
     <description>Recent content in Category on Lessons</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://cymk8.github.io/category/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/category/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Drawing</title>
-      <link>https://cymk8.github.io/category/drawing/</link>
+      <link>http://localhost:1313/category/drawing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/category/drawing/</guid>
+      <guid>http://localhost:1313/category/drawing/</guid>
       <description></description>
     </item>
     <item>
       <title>Painting</title>
-      <link>https://cymk8.github.io/category/painting/</link>
+      <link>http://localhost:1313/category/painting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/category/painting/</guid>
+      <guid>http://localhost:1313/category/painting/</guid>
       <description></description>
     </item>
     <item>
       <title>Sculpture</title>
-      <link>https://cymk8.github.io/category/sculpture/</link>
+      <link>http://localhost:1313/category/sculpture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/category/sculpture/</guid>
+      <guid>http://localhost:1313/category/sculpture/</guid>
       <description></description>
     </item>
   </channel>

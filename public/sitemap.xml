@@ -2,44 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cymk8.github.io/category/</loc>
+    <loc>http://localhost:1313/category/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/category/drawing/</loc>
+    <loc>http://localhost:1313/category/drawing/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/drawing/</loc>
+    <loc>http://localhost:1313/drawing/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/painting/lesson-1/</loc>
+    <loc>http://localhost:1313/painting/lesson-1/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/drawing/lesson-10/</loc>
+    <loc>http://localhost:1313/drawing/lesson-10/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/painting/lesson-2/</loc>
+    <loc>http://localhost:1313/painting/lesson-2/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/sculpture/lesson-3/</loc>
+    <loc>http://localhost:1313/sculpture/lesson-3/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/drawing/lesson-4/</loc>
+    <loc>http://localhost:1313/drawing/lesson-4/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/drawing/lesson-5/</loc>
+    <loc>http://localhost:1313/drawing/lesson-5/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/drawing/lesson-6/</loc>
+    <loc>http://localhost:1313/drawing/lesson-6/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/painting/lesson-7/</loc>
+    <loc>http://localhost:1313/painting/lesson-7/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/sculpture/lesson-8/</loc>
+    <loc>http://localhost:1313/painting/test/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/sculpture/lesson-9/</loc>
+    <loc>http://localhost:1313/sculpture/lesson-8/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/all/</loc>
+    <loc>http://localhost:1313/sculpture/lesson-9/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/</loc>
+    <loc>http://localhost:1313/all/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/category/painting/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/painting/</loc>
+    <loc>http://localhost:1313/category/painting/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/category/sculpture/</loc>
+    <loc>http://localhost:1313/painting/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/sculpture/</loc>
+    <loc>http://localhost:1313/category/sculpture/</loc>
   </url><url>
-    <loc>https://cymk8.github.io/tag/</loc>
+    <loc>http://localhost:1313/sculpture/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tag/</loc>
   </url>
 </urlset>

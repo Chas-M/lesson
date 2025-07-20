@@ -4,14 +4,14 @@ function filterGridItems() {
     let filter = search_filter.value.toUpperCase();
     let lesson_grid = document.querySelector(".lesson-grid");
     let lesson_list_item = document.querySelectorAll(".lesson-grid > li");
-
-    console.log(filter);
+    const regexp = new RegExp(filter, 'i');
 
     for (let i = 0; i < lesson_list_item.length; i++) {
         let lesson_item = lesson_list_item[i].getElementsByTagName("a")[0];
 
-
-        if (lesson_item.getAttribute("data-title").toUpperCase().indexOf(filter) > -1) {
+        // if (lesson_item.getAttribute("data-title").toUpperCase().includes(filter)) {
+        // Use regex instead
+        if (regexp.test(lesson_item.getAttribute("data-title"))) {
             lesson_list_item[i].classList.remove('hide');
         } else {
             lesson_list_item[i].classList.add('hide');
