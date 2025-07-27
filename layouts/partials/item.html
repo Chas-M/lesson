@@ -1,6 +1,12 @@
 <li>
-    <a href="{{ .Params.link}}" target="_blank" class="lesson-item" data-title="{{ .Title }}" data-tags="{{ range .Params.tags }}{{ . }} {{ end}}">
-        <img src="{{ .Params.image }}" class="icon" alt="{{ .Title }}" />
-        <span class="title">{{ .Title }}</span>
+    <a 
+        href="{{ .Params.link}}" 
+        target="_blank" 
+        class="lesson-item" 
+        data-title="{{ .Title }}" 
+        data-category="{{ range .Params.category }}{{ . }} {{ end}}" 
+        data-tags="{{ range .Params.tags }}{{ . }} {{ end}}">
+            <img src="{{ .Params.image }}" class="icon" alt="{{ .Title }}" />
+            <span class="title">{{ .Title }}</span>
     </a>
 </li>
