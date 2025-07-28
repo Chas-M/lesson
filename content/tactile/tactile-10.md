@@ -1,8 +1,8 @@
 +++
 draft = false
-title = 'Lesson 10 - Drawing'
+title = 'Lesson 669 - Tactile'
 link = "https://cara.app/explore"
 image = "/images/icon.png"
-category = ["drawing"]
-tags = ["marker"]
+category = ["tactile"]
+tags = ["clay"]
 +++
