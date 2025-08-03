@@ -7,40 +7,38 @@
 
     <!-- This block contains the filter and list of items -->
     <div class="lesson my-5 container">
+
         <div class="input-group mb-3">
-            <input id="search-filter" onkeyup="filterGridItems()" type="text" class="form-control" placeholder="Search Lesson" aria-label="Search" />
+            <input id="search-filter" type="text" class="form-control" placeholder="Search Lesson" aria-label="Search" />
+            <a href="#" class="reset">Reset</a>
         </div>
 
-        <div class="lesson-nav-container">
+        <div class="lesson-nav-container filters">
 
             <!-- 
-                This is the top level category navigation
-
-                The onclick="filterCategory('category')" where category is a category set in the data
+                Category Navigation 
+                * filterCategory('<category>') determines what suggested words appear in the secondary navigation
+                * data-filter="<.category>" determines the category to filter the lessons
             -->
-            <ul class="lesson-nav lesson-nav-category">
-                <li class="filter-category-all"><a href="#" onclick="filterCategory('all')">All</a></li>
-                <li class="filter-category-painting"><a href="#" onclick="filterCategory('painting')">Painting</a></li>
-                <li class="filter-category-drawing"><a href="#" onclick="filterCategory('drawing')">Drawing</a></li>
-                <li class="filter-category-tactile"><a href="#" onclick="filterCategory('tactile')">Tactile</a></li>
+            <ul class="lesson-nav lesson-nav-category button-group" data-filter-group="category">
+                <li class="filter-category is-checked"><a href="javascript:void(0)" class="button reset" onclick="filterCategory('all')" data-filter="*">All</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('painting')" data-filter=".painting">Painting</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('drawing')" data-filter=".drawing">Drawing</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('tactile')" data-filter=".tactile">Tactile</a></li>
             </ul>
 
             <!-- 
-                This is the suggested items list 
-
-                The class in the li tag determines what group that item would be associated in. 
-                Ie. Have the filter-tag-painting to have it suggested when filtering by Painting category.
-                Hide it by default
-
-                The onclick="filterGridItemsByTag('tag')""
-                Where tag is one of the available tag set in content data
+                Tag Navigation 
+                * filter-tag-<category> is what associates the navigation item with the category navigation
+                * Where <category> would match the value set for filterCategory('<category>')
+                * data-filter="<.tag>"
             -->
-            <ul class="lesson-nav lesson-nav-tags">
-                <li class="filter-tag-painting hide"><a href="#" onclick="filterGridItemsByTag('acrylics')">Acrylics</a></li>
-                <li class="filter-tag-painting hide"><a href="#" onclick="filterGridItemsByTag('watercolor')">Watercolor</a></li>
-                <li class="filter-tag-drawing hide"><a href="#" onclick="filterGridItemsByTag('marker')">Marker</a></li>
-                <li class="filter-tag-drawing hide"><a href="#" onclick="filterGridItemsByTag('pencil')">Pencil</a></li>
-                <li class="filter-tag-tactile hide"><a href="#" onclick="filterGridItemsByTag('clay')">Clay</a></li>
+            <ul class="lesson-nav lesson-nav-tags button-group" data-filter-group="tags">
+                <li class="filter-tag-painting hide is-checked"><a href="javascript:void(0)" class="button" data-filter=".acrylic" >Acrylics</a></li>
+                <li class="filter-tag-painting hide"><a href="javascript:void(0)" class="button" data-filter=".watercolor">Watercolor</a></li>
+                <li class="filter-tag-drawing hide"><a href="javascript:void(0)" class="button" data-filter=".marker">Marker</a></li>
+                <li class="filter-tag-drawing hide"><a href="javascript:void(0)" class="button" data-filter=".pencil">Pencil</a></li>
+                <li class="filter-tag-tactile hide"><a href="javascript:void(0)" class="button" data-filter=".clay">Clay</a></li>
             </ul>
 
         </div>

@@ -4,7 +4,7 @@
 
 <html lang="en">
 
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38107&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <title>Lessons</title>
 
@@ -18,7 +18,12 @@
 
         
         
-        <link rel="stylesheet" href="/sass/main.min.9a2ba9296acd7d198b813f45e348f713e1bd8b92b0e6b14a6f1f648404340d7f.css">
+        <link rel="stylesheet" href="/sass/main.min.b96795923aa75e398bf27ee8b3da7b7316aa6ca26d59a48c7621e99bc1565869.css">
+
+        
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
         
         <script type="text/javascript" src="/js/main.js"></script>
@@ -34,27 +39,28 @@
 
     
     <div class="lesson my-5 container">
+
+        
+
         <div class="input-group mb-3">
             <input id="search-filter" onkeyup="filterGridItems()" type="text" class="form-control" placeholder="Search Lesson" aria-label="Search" />
         </div>
 
-        <div class="lesson-nav-container">
+        <div class="lesson-nav-container filters">
 
-            
-            <ul class="lesson-nav lesson-nav-category">
-                <li class="filter-category-all"><a href="#" onclick="filterCategory('all')">All</a></li>
-                <li class="filter-category-painting"><a href="#" onclick="filterCategory('painting')">Painting</a></li>
-                <li class="filter-category-drawing"><a href="#" onclick="filterCategory('drawing')">Drawing</a></li>
-                <li class="filter-category-tactile"><a href="#" onclick="filterCategory('tactile')">Tactile</a></li>
+            <ul class="lesson-nav lesson-nav-category button-group" data-filter-group="category">
+                <li class="filter-category is-checked"><a href="javascript:void(0)" class="button reset" onclick="filterCategory('all')" data-filter="*">All</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('painting')" data-filter=".painting">Painting</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('drawing')" data-filter=".drawing">Drawing</a></li>
+                <li class="filter-category"><a href="javascript:void(0)" class="button" onclick="filterCategory('tactile')" data-filter=".tactile">Tactile</a></li>
             </ul>
 
-            
-            <ul class="lesson-nav lesson-nav-tags">
-                <li class="filter-tag-painting hide"><a href="#" onclick="filterGridItemsByTag('acrylics')">Acrylics</a></li>
-                <li class="filter-tag-painting hide"><a href="#" onclick="filterGridItemsByTag('watercolor')">Watercolor</a></li>
-                <li class="filter-tag-drawing hide"><a href="#" onclick="filterGridItemsByTag('marker')">Marker</a></li>
-                <li class="filter-tag-drawing hide"><a href="#" onclick="filterGridItemsByTag('pencil')">Pencil</a></li>
-                <li class="filter-tag-tactile hide"><a href="#" onclick="filterGridItemsByTag('clay')">Clay</a></li>
+            <ul class="lesson-nav lesson-nav-tags button-group" data-filter-group="tags">
+                <li class="filter-tag-painting hide is-checked"><a href="javascript:void(0)" class="button" data-filter=".acrylic" >Acrylics</a></li>
+                <li class="filter-tag-painting hide"><a href="javascript:void(0)" class="button" data-filter=".watercolor">Watercolor</a></li>
+                <li class="filter-tag-drawing hide"><a href="javascript:void(0)" class="button" data-filter=".marker">Marker</a></li>
+                <li class="filter-tag-drawing hide"><a href="javascript:void(0)" class="button" data-filter=".pencil">Pencil</a></li>
+                <li class="filter-tag-tactile hide"><a href="javascript:void(0)" class="button" data-filter=".clay">Clay</a></li>
             </ul>
 
         </div>
@@ -63,52 +69,52 @@
         <ul class="lesson-grid grid">
             
                 
-                    <li>
+                    <li class="grid-item drawing marker ">
     <a 
         href="https://cara.app/explore" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 10 - Drawing" 
-        data-category="Drawing " 
+        data-category="drawing " 
         data-tags="marker ">
             <img src="/images/icon.png" class="icon" alt="Lesson 10 - Drawing" />
             <span class="title">Lesson 10 - Drawing</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item drawing charcoal ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 4 - Drawing" 
-        data-category="Drawing " 
+        data-category="drawing " 
         data-tags="charcoal ">
             <img src="/images/open-book.png" class="icon" alt="Lesson 4 - Drawing" />
             <span class="title">Lesson 4 - Drawing</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item drawing charcoal ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 5 - Drawing" 
-        data-category="Drawing " 
+        data-category="drawing " 
         data-tags="charcoal ">
             <img src="/images/icon.png" class="icon" alt="Lesson 5 - Drawing" />
             <span class="title">Lesson 5 - Drawing</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item drawing pencil ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 6 - Drawing" 
-        data-category="Drawing " 
+        data-category="drawing " 
         data-tags="pencil ">
             <img src="/images/icon.png" class="icon" alt="Lesson 6 - Drawing" />
             <span class="title">Lesson 6 - Drawing</span>
@@ -117,7 +123,7 @@
                 
             
                 
-                    <li>
+                    <li class="grid-item Music flute ">
     <a 
         href="#" 
         target="_blank" 
@@ -132,65 +138,65 @@
                 
             
                 
-                    <li>
+                    <li class="grid-item painting acrylic oil ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 1 - Acrylic Painting" 
-        data-category="Painting " 
+        data-category="painting " 
         data-tags="acrylic oil ">
             <img src="/images/icon.png" class="icon" alt="Lesson 1 - Acrylic Painting" />
             <span class="title">Lesson 1 - Acrylic Painting</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item painting acrylic ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 2 - Water Colour" 
-        data-category="Painting " 
+        data-category="painting " 
         data-tags="acrylic ">
             <img src="/images/icon.png" class="icon" alt="Lesson 2 - Water Colour" />
             <span class="title">Lesson 2 - Water Colour</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item painting watercolor ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 7 - Drawing" 
-        data-category="Painting " 
+        data-category="painting " 
         data-tags="watercolor ">
             <img src="/images/icon.png" class="icon" alt="Lesson 7 - Drawing" />
             <span class="title">Lesson 7 - Drawing</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item painting oil acrylic ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 8 - Painfiile" 
-        data-category="Painting " 
+        data-category="painting " 
         data-tags="oil acrylic ">
             <img src="/images/icon.png" class="icon" alt="Lesson 8 - Painfiile" />
             <span class="title">Lesson 8 - Painfiile</span>
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item painting watercolor ">
     <a 
         href="#" 
         target="_blank" 
         class="lesson-item" 
         data-title="Lesson 9 - Test" 
-        data-category="Painting " 
+        data-category="painting " 
         data-tags="watercolor ">
             <img src="/images/icon.png" class="icon" alt="Lesson 9 - Test" />
             <span class="title">Lesson 9 - Test</span>
@@ -199,7 +205,7 @@
                 
             
                 
-                    <li>
+                    <li class="grid-item Sculpture marble ">
     <a 
         href="#" 
         target="_blank" 
@@ -212,7 +218,7 @@
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item Sculpture ceramic ">
     <a 
         href="#" 
         target="_blank" 
@@ -225,7 +231,7 @@
     </a>
 </li>
                 
-                    <li>
+                    <li class="grid-item Sculpture pottery ">
     <a 
         href="#" 
         target="_blank" 
@@ -235,6 +241,21 @@
         data-tags="pottery ">
             <img src="/images/icon.png" class="icon" alt="Lesson 9 - Sculpture" />
             <span class="title">Lesson 9 - Sculpture</span>
+    </a>
+</li>
+                
+            
+                
+                    <li class="grid-item tactile clay ">
+    <a 
+        href="https://cara.app/explore" 
+        target="_blank" 
+        class="lesson-item" 
+        data-title="Lesson 669 - Tactile" 
+        data-category="tactile " 
+        data-tags="clay ">
+            <img src="/images/icon.png" class="icon" alt="Lesson 669 - Tactile" />
+            <span class="title">Lesson 669 - Tactile</span>
     </a>
 </li>
                 
