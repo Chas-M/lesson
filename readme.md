@@ -25,3 +25,73 @@
   - `hugo server` - Start a server
   - `hugo` - Build the site
   - `hugo mod clean --all` - Clear Cache
+
+
+## Content Management
+
+### File Structure
+
+This project is basically the working file.
+
+```
+root
+├── assets
+│   ├── js
+│   │   └── main.js
+│   └── sass
+│       └── main.scss
+├── content
+├── static
+│   └── images
+└── public
+```
+
+#### Assets folder 
+
+- Contains js and sass. Sass file is were you put the styles
+
+#### Content folder
+
+- Content folder is where the content is. 
+- You should create a folder per category.
+- The file name could be named anything `.md` extentions
+- Each content file should have the following:
+  
+```
++++
+draft = false
+title = 'Lesson 5 - Drawing'
+link = "#"
+image = "/images/icon.png"
+category = ["drawing"]
+tags = ["charcoal"]
++++
+```
+
+- Draft: `true` or `false`
+  - `false` by default
+  - Determines if it's 'published' or not. If set to true, item will not show up.
+- Title: `'string'`
+  - Determines the title of the item
+- Link:  `url`
+  - Link to the pdf
+- Image: `url`
+  - Relative path to the images in the `static/images` folder
+- Category: `array`
+  - String for the category
+  - Lower case
+- Tags: `array`
+  - String for the tags
+  - Lower case
+  - Multiple tags must be comma delimited. Example `["charcoal", "pencil"]`
+
+#### Static
+
+- Static >  Images 
+  - Put your images in the images folder
+
+#### Public
+
+After you make your changes, run `hugo` command. This will build the static site and compile it into the public folder.
+
+The content of this folder is what you need to upload and is what is viewable in the browser.

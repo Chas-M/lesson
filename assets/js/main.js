@@ -9,25 +9,40 @@ $( document ).ready(function() {
         return value;
     }
  
+    function debounce( fn, threshold ) {
+        var timeout;
+        threshold = threshold || 100;
+        return function debounced() {
+            clearTimeout( timeout );
+            var args = arguments;
+            var _this = this;
+            function delayed() {
+            fn.apply( _this, args );
+            }
+            timeout = setTimeout( delayed, threshold );
+        };
+    }
+
+
     // Filters
     var filters = {};
     var searchRegex;
+
+    function search() {
+        // String of associated terms
+        let searchTerms = $(this).attr('class').replace('grid-item','');
+        searchTerms += $(this).text().trim();
+    
+        console.log("Query: " + searchRegex ? searchTerms.match( searchRegex ) : true);
+        return searchRegex ? searchTerms.match( searchRegex ) : true;
+    }
 
     // init Isotope
     var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
-        filter: function() {
-            // String of associated terms
-            let searchTerms = $(this).attr('class').replace('grid-item','');
-            searchTerms += $(this).text().trim();
-            
-            console.log(searchTerms);
-            return searchRegex ? searchTerms.match( searchRegex ) : true;
-            // return searchRegex.test(searchTerms);
-        }
+        // filter: search
     });
-
 
     // Filters
     var filters = {};
@@ -65,11 +80,14 @@ $( document ).ready(function() {
     });
 
     // Search Filters
-    var $searchFilter = $('#search-filter').keyup(function() {
-        searchRegex = new RegExp( $searchFilter.val(), 'i' );
-        $grid.isotope();
-    });
-
+    var $searchFilter = $('#search-filter').keyup( debounce(
+        function() {
+            searchRegex = new RegExp( $searchFilter.val(), 'i' );
+            $grid.isotope({
+                filter: search
+            });
+        }, 200
+    ));
 
     // Reset
     $(".reset").click(function() {
@@ -77,7 +95,12 @@ $( document ).ready(function() {
         $grid.isotope({
             filter: '*'
         });
+
+         $('#search-filter').val('');
+         $('#search-filter').keyup();
+
     });
+
 });
 
 
