@@ -51,7 +51,9 @@ root
 
 #### Assets folder 
 
-- Contains js and sass. Sass file is were you put the styles
+- Contains js and sass. 
+- Sass file is were you put the styles
+  - You can just add overrides at the bottom of the file if you're worried about editing the main stuff
 
 #### Content folder
 
