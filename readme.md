@@ -58,6 +58,7 @@ root
 - Each content file should have the following:
   
 ```
+Example:
 +++
 draft = false
 title = 'Lesson 5 - Drawing'
@@ -95,3 +96,4 @@ tags = ["charcoal"]
 After you make your changes, run `hugo` command. This will build the static site and compile it into the public folder.
 
 The content of this folder is what you need to upload and is what is viewable in the browser.
+
