@@ -41,6 +41,9 @@ root
 │   └── sass
 │       └── main.scss
 ├── content
+├── layouts
+│   └── _default
+│       └── home.html
 ├── static
 │   └── images
 └── public
@@ -85,6 +88,11 @@ tags = ["charcoal"]
   - String for the tags
   - Lower case
   - Multiple tags must be comma delimited. Example `["charcoal", "pencil"]`
+
+#### Layout 
+
+- The only file you really need to edit is `home.html`
+- This is where the mark up is for the page
 
 #### Static
 
