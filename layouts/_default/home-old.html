@@ -1,0 +1,116 @@
+<!-- For Homepage Edits -->
+
+{{ partial "header" . }}
+
+    <!-- This is the main container of each section -->
+
+    <div class="lesson-type my-5 container">
+
+        {{/*  TODO: Make automatically generate track based on section  */}}
+
+        <a href="/all" class="all-lessons-button">All Lessons</a>
+
+        <!-- Section -->
+
+        <div class="lesson-track">
+            <h2>Painting</h2>
+       
+            <ul class="lesson-grid">
+                {{ range (where .Site.Pages "Section" "painting") }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}
+
+                 
+                {{/*  More From Category Link  */}}
+                <li class="more-link">
+                    <a href="/painting" class="lesson-item">
+                        <span class="title">More</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Section -->
+
+        <div class="lesson-track">
+            <h2>Drawing</h2>
+
+            <ul class="lesson-grid">
+                {{ range (where .Site.Pages "Section" "drawing") }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}
+
+                 
+                {{/*  More From Category Link  */}}
+                <li class="more-link">
+                    <a href="/drawing" class="lesson-item">
+                        <span class="title">More</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+        <!-- Section -->
+
+        <div class="lesson-track">
+            <h2>Sculpture</h2>
+
+            <ul class="lesson-grid">
+                {{/*  {{ range .Site.Sections }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}  */}}
+                
+                  {{ range (where .Site.Pages "Section" "sculpture") }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}
+
+                {{/*  More From Category Link  */}}
+                <li class="more-link">
+                    <a href="/sculpture" class="lesson-item">
+                        <span class="title">More</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+         <!-- Section -->
+
+        <div class="lesson-track">
+            <h2>Music</h2>
+
+            <ul class="lesson-grid">
+                {{/*  {{ range .Site.Sections }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}  */}}
+                
+                  {{ range (where .Site.Pages "Section" "music") }}
+                    {{ range .Pages }}
+                        {{ partial "item" . }}
+                    {{ end }}
+                {{ end }}
+
+                {{/*  More From Category Link  */}}
+                <li class="more-link">
+                    <a href="/music" class="lesson-item">
+                        <span class="title">More</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+
+       
+    </div>
+
+{{ partial "footer" . }}

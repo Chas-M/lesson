@@ -2,114 +2,114 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lessons by Type on Lessons</title>
-    <link>https://cymk8.github.io/</link>
+    <link>http://localhost:38107/</link>
     <description>Recent content in Lessons by Type on Lessons</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://cymk8.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:38107/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lesson 1 - Acrylic Painting</title>
-      <link>https://cymk8.github.io/painting/lesson-1/</link>
+      <link>http://localhost:38107/painting/lesson-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/painting/lesson-1/</guid>
+      <guid>http://localhost:38107/painting/lesson-1/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 10 - Drawing</title>
-      <link>https://cymk8.github.io/drawing/lesson-10/</link>
+      <link>http://localhost:38107/drawing/lesson-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/drawing/lesson-10/</guid>
+      <guid>http://localhost:38107/drawing/lesson-10/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 2 - Water Colour</title>
-      <link>https://cymk8.github.io/painting/lesson-2/</link>
+      <link>http://localhost:38107/painting/lesson-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/painting/lesson-2/</guid>
+      <guid>http://localhost:38107/painting/lesson-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 3 - Sculpture</title>
-      <link>https://cymk8.github.io/sculpture/lesson-3/</link>
+      <link>http://localhost:38107/sculpture/lesson-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/sculpture/lesson-3/</guid>
+      <guid>http://localhost:38107/sculpture/lesson-3/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 4 - Drawing</title>
-      <link>https://cymk8.github.io/drawing/lesson-4/</link>
+      <link>http://localhost:38107/drawing/lesson-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/drawing/lesson-4/</guid>
+      <guid>http://localhost:38107/drawing/lesson-4/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 4 - Music</title>
-      <link>https://cymk8.github.io/music/lesson-4/</link>
+      <link>http://localhost:38107/music/lesson-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/music/lesson-4/</guid>
+      <guid>http://localhost:38107/music/lesson-4/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 5 - Drawing</title>
-      <link>https://cymk8.github.io/drawing/lesson-5/</link>
+      <link>http://localhost:38107/drawing/lesson-5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/drawing/lesson-5/</guid>
+      <guid>http://localhost:38107/drawing/lesson-5/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 6 - Drawing</title>
-      <link>https://cymk8.github.io/drawing/lesson-6/</link>
+      <link>http://localhost:38107/drawing/lesson-6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/drawing/lesson-6/</guid>
+      <guid>http://localhost:38107/drawing/lesson-6/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 669 - Tactile</title>
-      <link>https://cymk8.github.io/tactile/tactile-10/</link>
+      <link>http://localhost:38107/tactile/tactile-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/tactile/tactile-10/</guid>
+      <guid>http://localhost:38107/tactile/tactile-10/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 7 - Drawing</title>
-      <link>https://cymk8.github.io/painting/lesson-7/</link>
+      <link>http://localhost:38107/painting/lesson-7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/painting/lesson-7/</guid>
+      <guid>http://localhost:38107/painting/lesson-7/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 8 - Painfiile</title>
-      <link>https://cymk8.github.io/painting/test/</link>
+      <link>http://localhost:38107/painting/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/painting/test/</guid>
+      <guid>http://localhost:38107/painting/test/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 8 - Sculpture</title>
-      <link>https://cymk8.github.io/sculpture/lesson-8/</link>
+      <link>http://localhost:38107/sculpture/lesson-8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/sculpture/lesson-8/</guid>
+      <guid>http://localhost:38107/sculpture/lesson-8/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 9 - Sculpture</title>
-      <link>https://cymk8.github.io/sculpture/lesson-9/</link>
+      <link>http://localhost:38107/sculpture/lesson-9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/sculpture/lesson-9/</guid>
+      <guid>http://localhost:38107/sculpture/lesson-9/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson 9 - Test</title>
-      <link>https://cymk8.github.io/painting/test-copy/</link>
+      <link>http://localhost:38107/painting/test-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/painting/test-copy/</guid>
+      <guid>http://localhost:38107/painting/test-copy/</guid>
       <description></description>
     </item>
     <item>
       <title>Lessons</title>
-      <link>https://cymk8.github.io/all/</link>
+      <link>http://localhost:38107/all/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://cymk8.github.io/all/</guid>
+      <guid>http://localhost:38107/all/</guid>
       <description></description>
     </item>
   </channel>
