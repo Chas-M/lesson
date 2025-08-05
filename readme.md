@@ -103,7 +103,6 @@ tags = ["charcoal"]
 
 #### Public
 
-After you make your changes, run `hugo` command. This will build the static site and compile it into the public folder.
-
-The content of this folder is what you need to upload and is what is viewable in the browser.
+- After you make your changes, run `hugo` command. This will build the static site and compile it into the public folder.
+- The content of this folder is what you need to upload and is what is viewable in the browser.
 
